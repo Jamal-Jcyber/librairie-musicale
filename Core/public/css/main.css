@@ -1,0 +1,26 @@
+body{
+    margin: 35px;
+    background-color: #000;
+}
+.container{
+    margin-bottom: 30px;
+}
+input[type=text]{
+    width: 100%;
+    height: 40px;
+}
+textarea{
+    width: 100%;
+}
+label{
+    color: #fff;
+}
+h1, h3, h4 {
+    color: #fff;
+}
+.searchBar{
+    padding-right: 400px;
+}
+.fa-facebook, .fa-instagram, .fa-youtube, .fa-twitter {
+    color: #fff;
+}

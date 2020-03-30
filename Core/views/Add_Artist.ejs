@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="index">Online-Streaming</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                  
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="index">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact">Contact</a>
+                          </li>
+                      </ul>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container">
+        <div class="row">
+            <h1>CONTROL PANEL TO ADD NEW ARTIST</h1>
+            <div class="col">
+                <form action="/" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <label for="firstname">FirstName</label><br>
+                        <input type="text" id="firsname" name="firstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastname">LastName</label><br>
+                        <input type="text" id="lastname" name="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label><br>
+                        <textarea name="description" id="description" cols="50" rows="10"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="style">Style</label><br>
+                        <input type="text" id="style" name="style">
+                    </div>
+                    <div class="form-group">
+                        <label for="picture">Picture</label><br>
+                        <input type="file" name="picture" id="picture">
+                    </div>
+                    <div class="form-group">
+                        <button class="btn btn-danger btn-lg actine"> ADD + </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/1b86f0e672.js" crossorigin="anonymous"></script>
+</body>
+</html>
