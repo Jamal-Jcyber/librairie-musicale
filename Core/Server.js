@@ -43,6 +43,9 @@ app.get('/', (req, res) => {
 app.get('/index', (req, res) => {
     res.render('index.ejs')
 })
+app.get('/art1', (req, res) => {
+    res.render('art1.ejs')
+})
 app.get('/about', (req, res) => {
     res.render('about.ejs')
 })
