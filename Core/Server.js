@@ -46,6 +46,24 @@ app.get('/index', (req, res) => {
 app.get('/art1', (req, res) => {
     res.render('art1.ejs')
 })
+app.get('/aiko-chilombo', (req, res) => {
+    res.render('aiko.ejs')
+})
+app.get('/aiko-trip', (req, res) => {
+    res.render('aiko2.ejs')
+})
+app.get('/aiko-souled-out', (req, res) => {
+    res.render('aiko3.ejs')
+})
+app.get('/khalid-american-teen', (req, res) => {
+    res.render('khalid.ejs')
+})
+app.get('/khalid-suncity', (req, res) => {
+    res.render('khalid2.ejs')
+})
+app.get('/khalid-k3*', (req, res) => {
+    res.render('khalid3.ejs')
+})
 app.get('/about', (req, res) => {
     res.render('about.ejs')
 })
