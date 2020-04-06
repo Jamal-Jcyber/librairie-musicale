@@ -43,8 +43,23 @@ app.get('/', (req, res) => {
 app.get('/index', (req, res) => {
     res.render('index.ejs')
 })
-app.get('/art1', (req, res) => {
+app.get('/hindi-zahra-homeland', (req, res) => {
     res.render('art1.ejs')
+})
+app.get('/hindi-zahra-handmade', (req, res) => {
+    res.render('hindi-zahra-handmade.ejs')
+})
+app.get('/hindi-zahra-until', (req, res) => {
+    res.render('hindi-zahra-until.ejs')
+})
+app.get('/shkoon', (req, res) => {
+    res.render('shkoon1.ejs')
+})
+app.get('/shkoon-Recordings', (req, res) => {
+    res.render('shkoon2.ejs')
+})
+app.get('/shkoon-Rima', (req, res) => {
+    res.render('shkoon3.ejs')
 })
 app.get('/aiko-chilombo', (req, res) => {
     res.render('aiko.ejs')
@@ -79,6 +94,7 @@ app.get('/Administrator/Add/album', (req, res) => {
 app.get('/Administrator/Add/track', (req, res) => {
     res.render('Add_Track.ejs')
 })
+
 
 // ************************
 // REST APIs FOR THE ARTIST
